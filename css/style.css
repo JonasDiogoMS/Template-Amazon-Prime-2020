@@ -1,0 +1,955 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+}
+
+.container{
+	width: 100%;
+	padding: 0px 48px;
+	margin: 0 auto;
+}
+
+.clear{clear: both;}
+
+header{
+	width: 100%;
+	position: fixed;
+	z-index: 999;
+	background-color: #1A232E;
+	height: 90px;
+}
+
+.logo{
+	position: relative;
+	float: left;
+	top: 30px;
+}
+
+.navbar{
+	float: right;
+	position: relative;
+	top: 35px;
+}
+
+.navbar ul{
+	list-style-type: none;
+}
+
+.navbar ul li{
+	display: inline-block;
+}
+
+.navbar select{
+	background-color: transparent;
+	border: 0;
+	color: white;
+	cursor: pointer;
+}
+
+.navbar select option{
+	color: black;
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+	margin-right: 15px;
+}
+
+/*SESSAO1*/
+.sessao1{
+	top: 90px;
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url('../images/bg1.jpg');
+	width: 100%;
+	min-height: 680px;
+	position: relative;
+}
+
+.overlay-right{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: linear-gradient(to right,black 39.5%,transparent 55%);
+	z-index: 1;	
+}
+
+.sessao1 .container{
+	position: relative;
+	z-index: 2;
+}
+
+.sessao-texto{
+	width: 50%;
+	float: left;
+	color: white;
+	padding: 90px 48px 90px 48px;
+}
+
+.sessao-texto h2{
+	font-size: 2.5rem;
+    text-align: left;
+    line-height: 1.2!important;
+    padding-bottom: 30px;
+}
+
+.sessao-texto p{
+	font-size: 21px;
+}
+
+.button1 a{
+	text-decoration: none;
+}
+
+.button1 span{
+	display: table;
+    padding: 16px 18px 16px;
+    border-radius: 2px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #0f79af;
+    position: relative;
+    font-size: 17px;
+    min-width: 290px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.button1{
+	margin-top: 50px;
+	margin-bottom: -5px;
+}
+
+.button2{
+	margin-top: 35px; 
+}
+
+.button2 a{
+	text-decoration: none;
+}
+
+.button2 span{
+	display: table;
+    padding: 16px 18px 16px;
+    border-radius: 2px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #0f79af;
+    position: relative;
+    font-size: 17px;
+    min-width: 290px;
+    text-align: center;
+    font-weight: 700;
+}
+
+p.info{
+	font-size: 15px;
+	margin-top: 70px;
+}
+
+
+.barra-p{
+	min-width: 290px;
+	position: relative;
+	display: inline-block;
+}
+
+.ps-barra p{
+	position: absolute;
+	display: inline-block;
+	top: 6px;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: black;
+	padding: 0 6px;
+	font-size: 14px;
+}
+
+.span-barra{
+	width: 100%;
+	height: 1px;
+	background-color: white;
+	position: absolute;
+	top: 15px;
+}
+
+
+/*FIM SESSAO1*/
+
+
+/*SESSAO2*/
+
+section.sessao2{
+	top: 90px;
+	width: 100%;
+	min-height: 680px;
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url('../images/bg2.jpg');
+	position: relative;
+}
+
+.overlay-left{
+	background: linear-gradient(to left,black 39.5%,transparent 55%);
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+}
+
+.sessao2 .container{
+	z-index: 2;
+	position: relative;
+}
+
+.sessao-texto2{
+	float: right;
+	width: 45%;
+}
+
+.sessao-texto2 h2{
+	color: white;
+	font-size: 38px;
+	text-align: left;
+	margin-top: 200px;
+}
+
+.sessao-texto2 p{
+	color: white;
+	font-size: 21px;
+	margin-top: 20px;
+	line-height: 30px;
+}
+
+.sessao-texto2 a{
+	text-decoration: none;
+}
+
+.sessao-texto2 span{
+	display: table;
+    padding: 16px 18px 16px;
+    border-radius: 2px;
+    color: #fff;
+    position: relative;
+    font-size: 17px;
+    min-width: 290px;
+    text-align: center;
+    font-weight: 700;
+    background-color: #0f79af;
+    top: 45px;
+    float: left;
+}
+
+/*FIM SESSAO2*/
+
+
+/*SESSAO 3*/
+
+section.sessao3{
+	margin-top: 90px;
+	width: 100%;
+	min-height: 670px;
+	background-size: cover;
+	background-position: top;
+	background-image: url('../images/bg3.jpg');
+	position: relative;
+}
+
+.overlay-right-s3{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: linear-gradient(to right,black 39.5%,transparent 57.5%);
+	z-index: 1;	
+}
+
+section.sessao3 .container{
+	position: relative;
+	z-index: 2;
+}
+
+.sessao-texto3{
+	float: left;
+	margin-top: 150px;
+	padding-left: 48px;
+}
+
+.sessao-texto3 h2{
+	color: white;
+	font-size: 35px;
+}
+
+.sessao-texto3 p{
+	color: #fff;
+	font-size: 20px;
+	width: 70%;
+	margin-top: 25px;
+	line-height: 28px;
+}
+
+.sessao-texto3 a{
+	text-decoration: none;
+}
+
+.sessao-texto3 span{
+	display: table;
+    padding: 16px 18px 16px;
+    border-radius: 2px;
+    color: #fff;
+    position: relative;
+    font-size: 17px;
+    min-width: 290px;
+    text-align: center;
+    font-weight: 700;
+    background-color: #0f79af;
+    top: 45px;
+    float: left;
+}
+
+/*FIM SESSAO 3*/
+
+
+
+/*SESSAO 4*/
+
+section.sessao4{
+	width: 100%;
+	min-height: 670px;
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url('../images/bg4.jpg');
+	position: relative;
+}
+
+section.sessao4 .container{
+	position: relative;
+	z-index: 2;
+}
+
+.sessao-texto4{
+	float: right;
+	width: 45%;
+	margin-top: 200px;
+}
+
+.sessao-texto4 h2{
+	color: #fff;
+	font-size: 40px;
+}
+
+.sessao-texto4 p{
+	color: #fff;
+	margin-top: 22px;
+	line-height: 28px;
+	font-size: 20px;
+}
+
+.sessao-texto4 a{
+	text-decoration: none;
+}
+
+.sessao-texto4 span{
+	display: table;
+    padding: 16px 18px 16px;
+    border-radius: 2px;
+    color: #fff;
+    position: relative;
+    font-size: 17px;
+    min-width: 290px;
+    text-align: center;
+    font-weight: 700;
+    background-color: #0f79af;
+    top: 45px;
+    float: left;
+}
+
+
+/*FIM SESSAO 4*/
+
+
+/*SESSAO 5*/
+
+section.sessao5{
+	width: 100%;
+	min-height: 670px;
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url('../images/bg5.jpg');
+	position: relative;
+}
+
+section.sessao5 .container{
+	position: relative;
+	z-index: 2;
+}
+
+.sessao-texto5{
+	float: left;
+	width: 46%;
+	margin-top: 175px;
+	padding-left: 45px;
+}
+
+.sessao-texto5 h2{
+	color: #fff;
+	font-size: 40px;
+}
+
+.sessao-texto5 p{
+	color: #fff;
+	margin-top: 26px;
+	line-height: 28px;
+	font-size: 20px;
+}
+
+.sessao-texto5 a{
+	text-decoration: none;
+}
+
+.sessao-texto5 span{
+	display: table;
+    padding: 16px 18px 16px;
+    border-radius: 2px;
+    color: #fff;
+    position: relative;
+    font-size: 17px;
+    min-width: 290px;
+    text-align: center;
+    font-weight: 700;
+    background-color: #0f79af;
+    top: 45px;
+    float: left;
+}
+
+/*FIM SESSAO 5*/
+
+
+/*SESSAO-FINAL*/
+
+.boxes{
+	position: relative;
+	margin-top: 50px;
+	width: 100%;
+}
+.box-info{
+	float: left;
+	width: 33.3%;
+	text-align: center;
+	padding: 0 2%;
+}
+
+.box-info img{
+	/*width: 50%;*/
+}
+
+.box-info h2{
+	font-size: 33px;
+	font-weight: bold;
+}
+
+.box-info p{
+	font-size: 20px;
+	margin-top: 8px;
+	padding-bottom: 40px;
+	text-align: center;
+}
+
+
+/*FIM SESSAO-FIANAL*/
+
+footer{
+	width: 100%;
+	padding: 25px 2% 60px 2%;
+	background-color: #222222;
+}
+
+footer h2{
+	text-align: center;
+}
+
+footer img{
+	margin: 0 auto;
+	text-align: center;
+}
+
+footer ul{
+	text-align: center;
+	list-style-type: none;
+	padding-left: 16px;
+}
+
+footer ul li{
+	display: inline-block;
+	margin-right: 5px;
+	color: rgb(200,200,200);
+	font-size: 15px;
+}
+
+footer ul li a{
+	color: #0f79af;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: lighter;
+}
+
+
+
+
+/*MEDIA SCREEN 1024PX*/
+
+@media screen and (max-width: 1024px){
+
+	section.sessao5{
+		width: 100%;
+		min-height: 750px;
+		background-position: top;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-image: url('../images/bg55.jpg');
+		position: relative;
+		padding-bottom: 200px;
+	}
+
+	.sessao-texto5{
+		float: left;
+		width: 46%;
+		margin-top: 175px;
+		padding-left: 45px;
+	}
+
+	.box-info{
+		float: none;
+		width: 100%;
+	}
+}
+
+
+/*FIM MEDIA SCREEN 1024PX*/
+
+
+
+
+/*MEDIA SCREEN 768PX*/
+
+/*SESSAO 1*/
+@media screen and (max-width: 768px){
+
+	header .container{
+		padding: 0 2%;
+	}
+
+	.sessao1{
+		top: 90px;
+		background-position: top;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-image: url('../images/bg11.jpg');
+		width: 100%;
+		min-height: 800px;
+		position: relative;	
+	}
+
+	.overlay-right{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		background: linear-gradient(to top,black 55%, transparent 70%);
+		z-index: 1;	
+	}
+
+	.sessao1 .container{
+		position: relative;
+		z-index: 2;
+		padding: 0 4%; 
+	}
+
+	.sessao-texto{
+		width: 100%;
+		color: white;
+		padding: 0;
+		text-align: center;
+		margin-top: 380px;
+	}
+
+	.sessao-texto h2{
+		font-size: 2rem;
+	    text-align: center;
+	    line-height: 1.2!important;
+	    padding-bottom: 10px;
+	}
+
+	.sessao-texto p{
+		font-size: 16px;
+	}
+
+	.button1 a{
+		text-decoration: none;
+	}
+
+	.button1 span{
+		display: table;
+	    padding: 16px 18px 16px;
+	    border-radius: 2px;
+	    color: #fff;
+	    text-decoration: none;
+	    background-color: #0f79af;
+	    position: relative;
+	    font-size: 17px;
+	    min-width: 290px;
+	    text-align: center;
+	    font-weight: 700;
+	    position: static;
+	    margin: 0 auto;
+	}
+
+	.button1{
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.button2{
+		margin-top: 30px; 
+	}
+
+	.button2 a{
+		text-decoration: none;
+	}
+
+	.button2 span{
+		display: table;
+	    padding: 16px 18px 16px;
+	    border-radius: 2px;
+	    color: #fff;
+	    text-decoration: none;
+	    background-color: #0f79af;
+	    font-size: 17px;
+	    min-width: 290px;
+	    text-align: center;
+	    font-weight: 700;
+	    position: static;
+	    margin: -10px auto;
+	}
+
+	p.info{
+		font-size: 15px;
+		margin-top: 30px;
+	}
+
+	.span-barra{
+		min-width: 290px;
+		height: 1px;
+		background-color: white;
+		display: block;
+		top: 0px;
+	}
+
+	.ps-barra p{
+		top: -10px;
+	}
+
+	/*FIM SESSAO1*/
+
+
+
+	/*SESSAO2*/
+
+	section.sessao2{
+		width: 100%;
+		min-height: 680px;
+		background-position: top;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-image: url('../images/bg22.jpg');
+		position: relative;
+		padding-bottom: 200px;
+	}
+
+.overlay-left{
+	background: linear-gradient(to top,black 50.5%,transparent 70%);
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+}
+
+.sessao2 .container{
+	z-index: 2;
+	position: relative;
+}
+
+.sessao-texto2{
+	float: none;
+	width: 100%;
+}
+
+.sessao-texto2 h2{
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 0;
+	padding-top: 360px;
+}
+
+.sessao-texto2 p{
+	color: white;
+	font-size: 16px;
+	margin-top: 20px;
+	line-height: normal;
+	text-align: center;
+}
+
+.sessao-texto2 a{
+	text-decoration: none;
+}
+
+.sessao-texto2 span{
+	display: table;
+    padding: 16px 18px 16px;
+    border-radius: 2px;
+    color: #fff;
+    position: relative;
+    font-size: 17px;
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    background-color: #0f79af;
+    top: 30px;
+    float: none;
+    margin: 0 auto
+}
+
+/*FIM SESSAO2*/
+
+
+
+/*SESSAO 3*/
+
+section.sessao3{
+	top: -100px;
+	width: 100%;
+	min-height: 680px;
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url('../images/bg33.jpg');
+	position: relative;
+	padding-bottom: 200px;
+}
+
+.overlay-right-s3{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: linear-gradient(to top,black 50.5%,transparent 57.5%);
+	z-index: 1;	
+}
+
+section.sessao3 .container{
+	position: relative;
+	z-index: 2;
+	padding: 0 4%; 
+}
+
+.sessao-texto3{
+	float: none;
+	padding-left: 0;
+	text-align: center;
+	width: 100%;
+}
+
+.sessao-texto3 h2{
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 0;
+	padding-top: 400px;
+}
+
+.sessao-texto3 p{
+	color: #fff;
+	font-size: 16px;
+	width: 100%;
+	margin-top: 25px;
+	line-height: normal;
+	padding: 0 30px;
+}
+
+.sessao-texto3 a{
+	text-decoration: none;
+}
+
+.sessao-texto3 span{
+	display: table;
+    padding: 16px 18px 16px;
+    border-radius: 2px;
+    color: #fff;
+    position: relative;
+    font-size: 17px;
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    background-color: #0f79af;
+    top: 30px;
+    float: none;
+    margin: 0 auto;
+}
+
+/*FIM SESSAO 3*/
+
+
+	/*SESSAO 4*/
+
+section.sessao4{
+	top: -100px;
+	width: 100%;
+	min-height: 670px;
+	background-position: left;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url('../images/bg44.jpg');
+	position: relative;
+	padding-bottom: 200px;
+}
+
+section.sessao4 .container{
+	position: relative;
+	z-index: 2;
+}
+
+.sessao-texto4{
+	float: none;
+	width: 100%;
+	margin-top: 0;
+	padding-top: 420px;
+	text-align: center;
+}
+
+.sessao-texto4 h2{
+	color: #fff;
+	font-size: 30px;
+}
+
+.sessao-texto4 p{
+	color: #fff;
+	margin-top: 22px;
+	line-height: 28px;
+	font-size: 16px;
+}
+
+.sessao-texto4 a{
+	text-decoration: none;
+}
+
+.sessao-texto4 span{
+	display: table;
+    padding: 16px 18px 16px;
+    border-radius: 2px;
+    color: #fff;
+    position: relative;
+    font-size: 17px;
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    background-color: #0f79af;
+    top: 30px;
+    float: none;
+}
+
+
+/*FIM SESSAO 4*/
+	
+	
+
+	/*SESSAO 5*/
+
+section.sessao5{
+	top: -100px;
+	width: 100%;
+	min-height: 670px;
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url('../images/bg55.jpg');
+	position: relative;
+	padding-bottom: 200px;
+}
+
+section.sessao5 .container{
+	position: relative;
+	z-index: 2;
+}
+
+.sessao-texto5{
+	float: none;
+	width: 100%;
+	padding-top: 160px;
+	padding-left: 0;
+	text-align: center;
+}
+
+.sessao-texto5 h2{
+	color: #fff;
+	font-size: 30px;
+}
+
+.sessao-texto5 p{
+	color: #fff;
+	margin-top: 26px;
+	line-height: normal;
+	font-size: 16px;
+}
+
+.sessao-texto5 a{
+	text-decoration: none;
+}
+
+.sessao-texto5 span{
+	display: table;
+    padding: 16px 18px 16px;
+    border-radius: 2px;
+    color: #fff;
+    position: relative;
+    font-size: 17px;
+    text-align: center;
+    font-weight: 700;
+    background-color: #0f79af;
+    top: 30px;
+    float: none;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/*FIM SESSAO 5*/
+	
+	.boxes{
+		position: relative;
+		margin-top: 0;
+		width: 100%;
+	}
+
+}
+
+/*FIM MEDIA SCREEN 768PX*/
+
+
+
+
+
+
+
